@@ -1,0 +1,339 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(img/rosa1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;    
+    margin: 0;
+}
+
+.margem {
+width: 100%;
+max-width: 800px;
+margin-left: auto;
+margin-right: auto;
+}
+
+@media screen and (max-width:480px) {
+.margem{
+        padding: 5px;
+    }
+}
+
+.cabecalho {
+   
+    align-items: center;
+    display: flex;
+    background-color: rgba(235, 5, 131, 0.884);
+    border-radius: 8px;
+    box-shadow: inset 0 0 1em gold, 0 0 1em rgb(32 235 5 / 88%);
+}
+
+@media screen and (max-width:480px) {
+    .cabecalho {
+        flex-direction: column;
+    }
+} 
+
+.logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 60px;
+    margin: 10px 20px 10px 20px;
+    text-align: center;
+    padding:  0px 15px 5px 15px;
+    box-shadow: inset 0 0 1em rgb(0, 255, 213), 0 0
+    1em rgba(235, 5, 120, 0.884);
+}
+
+.menu {
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0.6;
+    width: 350px;
+}
+
+.logo1 h1 {
+    margin: 35px 80px 35px 690px;
+    color: rgba(216, 45, 108, 0.945);
+font-size: 45px;
+
+
+    font-family: 'Tangerine', serif;
+    font-size: 45px;
+    text-shadow: 4px 4px 4px rgb(190, 61, 162);
+  
+  }
+ 
+.caixa h2 {
+    
+    font-family: 'Tangerine', serif;
+    font-size: 32px;
+    text-shadow: 4px 4px 4px rgb(27, 189, 154);
+
+}
+
+.logo1 img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 6px;
+    height: 100vh;
+    width: 400px;
+    height: 600px;
+    border-radius: 600px;
+    margin: 18px 80px 18px 630px;
+    padding: 10px 16px;
+    box-shadow: inset 0 0 1em rgb(0, 255, 213), 0 0
+    1em rgba(235, 5, 120, 0.884);
+}
+
+
+@media screen and (max-width:480px) {
+    .Inicio {
+    justify-content:center;
+       }
+    }  
+
+.item {
+    
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(197, 32, 120, 0.884);
+    border-radius: 4px;
+    padding: 10px 16px;
+    box-shadow: inset 0 0 1em gold, 0 0
+    1em rgba(32, 235, 5, 0.884)
+}
+
+.item:hover {
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+
+.meio {
+    padding-top: 40px;
+    backface-visibility: visible;
+   
+    padding-bottom: 40px;
+}
+.Inicio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:480px) {
+.Inicio {
+justify-content:center;
+   }
+}  
+
+.caixa {
+background-color: rgb(68, 122, 194);
+border-radius: 25px;
+cursor: pointer;
+padding: 16px;
+width: 180px;
+margin-bottom: 2px;
+}
+
+.caixa:hover {
+border: 8px solid rgb(158, 156, 255);
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1),
+0 4px 6px 0 rgba(rgb(0, 255, 34), 251, 0, 0.15);
+padding: 9px;
+
+}
+
+.caixa img {
+background-image: url(img/ITEM1.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+border-radius: 60px;
+margin-bottom: 10px;
+width: 100%;
+height: 180px;
+}
+
+.caixa p {
+    font-family:"opens sans", sans-serif;
+    font-size: 12px ;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.botaõ {
+    background-color: rgb(24, 21, 194);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 12px;
+    padding: 6px 5px;
+    width: 50%;
+    justify-content: center;
+    
+}
+
+.caixa-video {
+        background-color: rgba(25, 204, 85, 0.945);
+        border-radius: 25px;
+        cursor: pointer;
+        padding: 20px;
+        width: 80%;
+        margin-left: 65px;
+        margin-bottom: 2px;
+       
+        }
+        
+        .caixa-video:hover {
+        border: 8px solid rgba(15, 152, 161, 0.733);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1),
+        0 4px 6px 0 rgba(rgb(80, 192, 95), 251, 0, 0.15);
+        padding: 9px;
+
+        
+        }
+        
+        .caixa-video iframe {
+        background-repeat: no-repeat;
+        background-size: 100%;
+        border-radius: 60px;
+        margin-bottom: 10px;
+        width: 60%;
+        height: 225px;
+        margin-top: 25px;
+        margin-left: 118px;
+        }
+        
+        .caixa-video p {
+            font-family:"opens sans", sans-serif;
+            font-size: 14px ;
+            font-weight: bold;
+            text-align: justify;
+           
+}
+
+.card__titulo {
+    font-family: "PT sans Narrow";
+    font-size: 26px;
+    font-weight:700;
+    line-height:33px;
+    color:#04214d;
+  }
+  
+  .card__titulo:hover {
+    color:#56085e;
+  }
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    
+}
+
+@media screen and (max-width: 820px) {
+    .formulario {
+      width: 100%;
+    }
+  }
+
+
+.formulario label {
+    color: rgb(8, 3, 6);
+    font-size: 15px;
+    margin-left: 145px;
+    margin-top: 10px;
+}
+
+.formulario input {
+    background-color: transparent;
+    border: 3px solid rgb(170, 42, 149);
+    color: rgb(212, 7, 58);
+    border-radius: 8px;
+    font-size: 16px;
+    margin-left:  135px; 
+    margin-bottom: 8px;
+     margin: 12px 0px 12px 135px;
+}
+
+.formulario textarea {
+    
+    background-color: transparent;
+    border: 3px solid rgb(7, 183, 189);
+    border-radius: 25px;
+    margin: 12px 0px 12px 135px;
+
+}
+
+.formulario button {
+    background-color: rgb(95, 166, 199);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 12px;
+    padding: 8px 16px;
+    width: fit-content;
+    margin: 12px 0px 12px 135px;
+  }
+
+.formulario button:hover {
+    background-color: cyan;
+}
+
+.redes {
+height: 200px;
+border: #137399;
+padding: 30px;
+
+}
+.redes h2{
+    font-family:gabriola ;
+    text-align: center;
+    font-weight: bold;
+}
+
+.social {
+text-align: center;
+padding-top: 40px;
+padding-bottom: 40px;
+
+}
+.social li {
+display: inline-block;
+
+}
+.social a {
+    padding: 10px;
+
+}
+
+.rodape {
+    
+    background-color: #137399;
+    width: 100%;
+  }
+
+  .rodape__link {
+    font-size: 16px;
+    color:#FFFFFF;
+    opacity : .9; 
+    text-decoration: none;
+  }
+
+  .rodape_copyrigth {
+    line-height: 14px;
+    color: #87c1d9;
+    
+  }
+  
