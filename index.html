@@ -13,7 +13,7 @@
         <nav>
             <div class="cabecalho margem">
             <img class="logo" 
-            src="img/rosa4.jpg" alt="avatar">
+            src="./img1/rosa3.jpg" alt="avatar">
 
             <ul class="menu" >
 
@@ -33,14 +33,14 @@
 
         <div class="logo1"> 
        <h1>BEM-VINDOS</h1>
-            <img src="img/eu.jpg" alt="sou eu">
+            <img src="./img1/eu.jpg" alt="sou eu">
           </div>
 
   
     <main class="meio margem">
         <section id="Inicio" class="Inicio">
             <div class="caixa">
-            <img src="img/ITEM1.jpg"/>
+            <img src="./img1/ITEM1.jpg">
         
                 <h2> Sobre Mim </h2>
                 <p> Meu nome é Oriana Salazar, sou venezuelana e tenho 24 anos, cheguei com meu filho ao Brasil há dois anos.<br>
@@ -49,7 +49,7 @@
             </div>
           
             <div class="caixa">
-                <img src="img/ITEM2.jpg"/>
+                <img src="./img1/ITEM2.jpg">
                  <h2> ESTUDOS </h2>
                     <P> <em> Médio Completo</em> –  <strong> LB San Vicente Ferrer 2013/2014</strong> <br>
                         <br> <em> Informática em Gestão Social</em> – <strong> até o III Semestre 2016/2017</strong> </P> 
@@ -57,7 +57,7 @@
             
                
                     <div class="caixa">
-                    <img src="img/ITEM3.jpg"/>
+                    <img src="./img1/ITEM3.jpg">
                     <h2>OBJETIVOS</h2>
 
                         <p class="card__titulo"> Meu objetivo é adquirir novos conhecimentos a cada dia, quero me tornar um desenvolvedor FULL-STACK; Concordo com a frase de ARISTOTLE que diz "somos o que fazemos repetidamente, a excelência então não é um ato, é um hábito" </p>
@@ -101,22 +101,23 @@
         <form class="formulario">
 
             <label for="Nome">Nome:</label>
-            <input type="text" name="Nome" id="Nome">
+            <input type="text" name="nome" id="nome">
         
             <label for="email">Email:</label>
-            <input type="text" name="Email" id="Email">
+            <input type="text" name="email" id="email">
+
         <label for="comentario">Deixe seu comentário:</label>
         <textarea name="comentario" cols="6" rows="15"></textarea>
-                   <button >Enviar</button>
+                   <button type="submit" onclick="enviar()" valor="enviar" id="botão">Enviar</button>
         </form> 
      </div>
         
 <div class="redes">
 <h2>Sigueme em: </h2>
 <ul class="social">
-  <li><a href="https://www.facebook.com/oriana.Salzr" target="blank"><img src="img/facebook.png" width="45" height="45"></a></li>
+  <li><a href="https://www.facebook.com/oriana.Salzr" target="blank"><img src="./img1/facebook.png" width="45" height="45"></a></li>
 
-  <li><a href="https://www.instagram.com"target="blank">         <img src="img/instagram.jpg" width="45" height="45"></a></li>
+  <li><a href="https://www.instagram.com"target="blank">         <img src="./img1/instagram.jpg" width="45" height="45"></a></li>
 
   </ul>
 
@@ -141,5 +142,11 @@
   <span class="rodape__copyright">  DF Brasilia 2021 - 2022.   </span>
 
  </footer>
+
+<script src="./formulario.js"></script>
+
+
+
+
 </body>
 </html>
